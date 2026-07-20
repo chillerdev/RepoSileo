@@ -1,0 +1,11 @@
+{
+  "name": "My Sileo Repo",
+  "description": "Kho ứng dụng và tweak dành cho Sileo",
+  "origin": "My Sileo Repo",
+  "label": "My Sileo Repo",
+  "suite": "stable",
+  "version": "1.0",
+  "codename": "ios",
+  "architectures": ["iphoneos-arm", "iphoneos-arm64", "iphoneos-arm64e"],
+  "components": ["main"]
+}

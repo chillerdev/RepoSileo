@@ -1,0 +1,86 @@
+{
+  "repo": {
+    "name": "My Sileo Repo",
+    "description": "Kho ứng dụng và tweak dành cho Sileo",
+    "origin": "My Sileo Repo",
+    "label": "My Sileo Repo",
+    "suite": "stable",
+    "version": "1.0",
+    "codename": "ios",
+    "architectures": [
+      "iphoneos-arm",
+      "iphoneos-arm64",
+      "iphoneos-arm64e"
+    ],
+    "components": [
+      "main"
+    ]
+  },
+  "packages": [
+    {
+      "Package": "com.builuc1998.autotouchhelper",
+      "Name": "AutotouchHelper",
+      "Version": "0.0.3",
+      "Architecture": "iphoneos-arm64",
+      "Description": "An awesome MobileSubstrate tweak!",
+      "Section": "Tweaks",
+      "Author": "Tiz",
+      "Maintainer": "Tiz",
+      "Icon": "",
+      "Depiction": "",
+      "Homepage": ""
+    },
+    {
+      "Package": "com.tigisoftware.filza",
+      "Name": "Filza File Manager",
+      "Version": "4.0.1-2",
+      "Architecture": "iphoneos-arm64",
+      "Description": "File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+",
+      "Section": "Utilities",
+      "Author": "TIGI Software",
+      "Maintainer": "TIGI Software",
+      "Icon": "",
+      "Depiction": "",
+      "Homepage": ""
+    },
+    {
+      "Package": "com.yourname.serialforge",
+      "Name": "SerialForge",
+      "Version": "1.2.0",
+      "Architecture": "iphoneos-arm64",
+      "Description": "Dashboard đổi fingerprint thiết bị, xoá data app mục tiêu và kiểm tra trực tiếp MobileGestalt/uname/sysctl để xác nhận spoof.",
+      "Section": "Tweaks",
+      "Author": "yourname",
+      "Maintainer": "yourname",
+      "Icon": "",
+      "Depiction": "",
+      "Homepage": ""
+    },
+    {
+      "Package": "me.autotouch.autotouch.ios8.inputtext",
+      "Name": "AutoTouch InputText",
+      "Version": "8.5.5",
+      "Architecture": "iphoneos-arm64",
+      "Description": "Record and playback touch operations, play macro scripts automatically.",
+      "Section": "Utilities",
+      "Author": "Kent Krantz <kentkrantz@gmail.com>",
+      "Maintainer": "Kent Krantz <kentkrantz@gmail.com>",
+      "Icon": "file:///Applications/AutoTouch.app/AppIcon60x60@2x.png",
+      "Depiction": "",
+      "Homepage": "https://autotouch.net"
+    },
+    {
+      "Package": "com.viewphone.app",
+      "Name": "ViewPhone",
+      "Version": "4.2.0",
+      "Architecture": "iphoneos-arm64e",
+      "Description": "Multi-device ViewPhone agent with persistent streaming, remote control, batch Respring and the shared ViewPhone Serial design system.",
+      "Section": "Applications",
+      "Author": "ViewPhone",
+      "Maintainer": "ViewPhone",
+      "Icon": "",
+      "Depiction": "",
+      "Homepage": ""
+    }
+  ]
+}

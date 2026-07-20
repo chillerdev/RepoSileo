@@ -1,0 +1,16 @@
+Origin: My Sileo Repo
+Label: My Sileo Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: Kho ứng dụng và tweak dành cho Sileo
+MD5Sum:
+ 6682ab71cada57b47758661c11dc8a92 2996 Packages
+ e9404eacc07ad09d9f93da50fbb8bd0c 1534 Packages.bz2
+ 7dc447c39bdfe9c0e2161d5316af07e1 1404 Packages.gz
+SHA256:
+ 126d92b94f03de6808ffcbb6de89bed02a757ddebfda256cbcdfa7d2cd2f9ad7 2996 Packages
+ 04bdd3624e3befba7bcd38b5c6ef465195d91b4b114da081d26bcb9838aba10b 1534 Packages.bz2
+ 5b1aa1dfc942cb1b2c13ec52527228aa210a21fe757138f221ecebce6e8b5ba7 1404 Packages.gz

@@ -1,0 +1,81 @@
+Package: com.builuc1998.autotouchhelper
+Name: AutotouchHelper
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Tiz
+Author: Tiz
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Rootless: true
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 188
+Filename: ./debs/com.builuc1998.autotouchhelper_0.0.3_iphoneos-arm64.deb
+Size: 13276
+MD5sum: ea9f46460ca7dce67622662744e9a649
+SHA256: 897fc89dfe3a37b427bef5e944f31e83539d97d5c81e1cf4a87ee4dd8efad8ce
+
+Package: com.tigisoftware.filza
+Name: Filza File Manager
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Maintainer: TIGI Software
+Author: TIGI Software
+Section: Utilities
+Architecture: iphoneos-arm64
+Version: 4.0.1-2
+Installed-Size: 34948
+Filename: ./debs/com.tigisoftware.filza_4.0.1-2_iphoneos-arm64.deb
+Size: 13930160
+MD5sum: 334436fb8aa3a8d8911f2c76afa9ef48
+SHA256: 0cefbaf52f293dca9a3068e4288e3e159e20d72b6d5047281608671944c08ad3
+
+Package: com.yourname.serialforge
+Name: SerialForge
+Description: Dashboard đổi fingerprint thiết bị, xoá data app mục tiêu và kiểm tra trực tiếp MobileGestalt/uname/sysctl để xác nhận spoof.
+Maintainer: yourname
+Author: yourname
+Section: Tweaks
+Depends: ellekit
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Installed-Size: 960
+Filename: ./debs/com.yourname.serialforge_1.2.0_iphoneos-arm64.deb
+Size: 89786
+MD5sum: 01e151a9faab67687f2afb802c465e81
+SHA256: 0d942c1d6838ab5761565465a080f846918a32635d2bd4ba96e8e0783eaeb0c6
+
+Package: me.autotouch.autotouch.ios8.inputtext
+Name: AutoTouch InputText
+Description: Record and playback touch operations, play macro scripts automatically.
+Section: Utilities
+Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), ellekit
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Priority: optional
+Author: Kent Krantz <kentkrantz@gmail.com>
+Homepage: https://autotouch.net
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+Architecture: iphoneos-arm64
+Version: 8.5.5
+Installed-Size: 135228
+Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_8.5.5_iphoneos-arm64.deb
+Size: 21640736
+MD5sum: fb8fa94550e3a01b82f44fda346903ee
+SHA256: 6e2b22fbf605a5fc5e83b93ab12022c1e9c03556a4a7a55770d338c3bdd34c1a
+
+Package: com.viewphone.app
+Name: ViewPhone
+Description: Multi-device ViewPhone agent with persistent streaming, remote control, batch Respring and the shared ViewPhone Serial design system.
+Maintainer: ViewPhone
+Author: ViewPhone
+Section: Applications
+Depends: firmware (>= 15.0), ellekit
+Architecture: iphoneos-arm64e
+Version: 4.2.0
+Installed-Size: 1440
+Filename: ./debs/viewphone_4.2.0_iphoneos-arm64e.deb
+Size: 1278628
+MD5sum: d0e3c71da3bdfb412c2500d01ad1b575
+SHA256: fa9823371ecbf84b96b043d9e5194bb14314dfd920d617220dcc32934af57c91
+
