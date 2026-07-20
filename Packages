@@ -66,16 +66,16 @@ SHA256: 6e2b22fbf605a5fc5e83b93ab12022c1e9c03556a4a7a55770d338c3bdd34c1a
 
 Package: com.viewphone.app
 Name: ViewPhone
-Description: Multi-device ViewPhone agent with persistent streaming, remote control, batch Respring and the shared ViewPhone Serial design system.
+Description: Multi-device ViewPhone agent with persistent streaming, touch, keyboard, TrollStore management and remote app control.
 Maintainer: ViewPhone
 Author: ViewPhone
 Section: Applications
 Depends: firmware (>= 15.0), ellekit
 Architecture: iphoneos-arm64e
-Version: 4.4.1
+Version: 4.5.0
 Installed-Size: 2080
-Filename: ./debs/viewphone_4.4.1_iphoneos-arm64e.deb
-Size: 1279648
-MD5sum: 2beb893a97abe909afe00a991ded2511
-SHA256: 76fa4acdd3436510482b940156a5abc8aa72f270fb53a0048b42e066477a1cce
+Filename: ./debs/viewphone_4.5.0_iphoneos-arm64e.deb
+Size: 1279964
+MD5sum: 2cebd409e4776e8f8feacfb651a22daf
+SHA256: 6aee806e80dbe382deda504db2256c9ec65fff4b9f8fd0bd5cf2946a2fa4045f
 

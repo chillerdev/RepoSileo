@@ -72,9 +72,9 @@
     {
       "Package": "com.viewphone.app",
       "Name": "ViewPhone",
-      "Version": "4.4.1",
+      "Version": "4.5.0",
       "Architecture": "iphoneos-arm64e",
-      "Description": "Multi-device ViewPhone agent with persistent streaming, remote control, batch Respring and the shared ViewPhone Serial design system.",
+      "Description": "Multi-device ViewPhone agent with persistent streaming, touch, keyboard, TrollStore management and remote app control.",
       "Section": "Applications",
       "Author": "ViewPhone",
       "Maintainer": "ViewPhone",
