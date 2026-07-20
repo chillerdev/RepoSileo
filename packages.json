@@ -1,9 +1,9 @@
 {
   "repo": {
-    "name": "My Sileo Repo",
+    "name": "TTDevduck",
     "description": "Kho ứng dụng và tweak dành cho Sileo",
-    "origin": "My Sileo Repo",
-    "label": "My Sileo Repo",
+    "origin": "TTDevduck",
+    "label": "TTDevduck",
     "suite": "stable",
     "version": "1.0",
     "codename": "ios",
