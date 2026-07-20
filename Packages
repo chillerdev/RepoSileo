@@ -72,10 +72,10 @@ Author: ViewPhone
 Section: Applications
 Depends: firmware (>= 15.0), ellekit
 Architecture: iphoneos-arm64e
-Version: 4.2.0
-Installed-Size: 1440
-Filename: ./debs/viewphone_4.2.0_iphoneos-arm64e.deb
-Size: 1278628
-MD5sum: d0e3c71da3bdfb412c2500d01ad1b575
-SHA256: fa9823371ecbf84b96b043d9e5194bb14314dfd920d617220dcc32934af57c91
+Version: 4.3.0
+Installed-Size: 2080
+Filename: ./debs/viewphone_4.3.0_iphoneos-arm64e.deb
+Size: 1278992
+MD5sum: 0311235f3b3eff36dfa293db8c7d4172
+SHA256: 43056d93c0bc3c5069910afdcbee118f26e8decfe92c34008122f7822472900f
 
