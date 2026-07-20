@@ -70,12 +70,12 @@ Description: Multi-device ViewPhone agent with persistent streaming, touch, keyb
 Maintainer: ViewPhone
 Author: ViewPhone
 Section: Applications
-Depends: firmware (>= 15.0), ellekit
+Depends: firmware (>= 14.0), ellekit
 Architecture: iphoneos-arm64e
-Version: 4.5.0
-Installed-Size: 2080
-Filename: ./debs/viewphone_4.5.0_iphoneos-arm64e.deb
-Size: 1279964
-MD5sum: 2cebd409e4776e8f8feacfb651a22daf
-SHA256: 6aee806e80dbe382deda504db2256c9ec65fff4b9f8fd0bd5cf2946a2fa4045f
+Version: 4.5.1
+Installed-Size: 2084
+Filename: ./debs/viewphone_4.5.1_iphoneos-arm64e.deb
+Size: 1280624
+MD5sum: 0bad5c953e400f68a9ab56148a61c58b
+SHA256: fda47b6cfbfdc74c94790c3f1623e40de9e8fbdd6621bd3a7dd5ab95f5d6e02b
 
