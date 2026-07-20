@@ -72,7 +72,7 @@
     {
       "Package": "com.viewphone.app",
       "Name": "ViewPhone",
-      "Version": "4.4.0",
+      "Version": "4.4.1",
       "Architecture": "iphoneos-arm64e",
       "Description": "Multi-device ViewPhone agent with persistent streaming, remote control, batch Respring and the shared ViewPhone Serial design system.",
       "Section": "Applications",
