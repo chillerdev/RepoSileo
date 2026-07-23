@@ -64,6 +64,27 @@ Size: 21640736
 MD5sum: fb8fa94550e3a01b82f44fda346903ee
 SHA256: 6e2b22fbf605a5fc5e83b93ab12022c1e9c03556a4a7a55770d338c3bdd34c1a
 
+Package: com.xxxxxxxx.ATT
+Name: xxxxxATT
+Version: 0.2-1
+Description: 
+Section: System
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm64
+Author: xxxxxxxx
+dev: xxxxxxxx
+Homepage: 
+Depiction: 
+Maintainer: xxxxxxxx
+Icon:
+Filename: ./debs/roothide_com.xxxxxxxx.ATT_0.2-1.deb
+Size: 2889666
+MD5sum: 8d20a8c61e94ca7dcef95180f28cae65
+SHA256: ed5a22d152b4546b863fda1c910b69363e7c6422bedcc8b9b5b1dd62b9f131a0
+
 Package: com.viewphone.app
 Name: ViewPhone
 Description: Multi-device ViewPhone agent with persistent streaming, touch, keyboard, TrollStore management and remote app control.

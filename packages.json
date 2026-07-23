@@ -70,6 +70,19 @@
       "Homepage": "https://autotouch.net"
     },
     {
+      "Package": "com.xxxxxxxx.ATT",
+      "Name": "xxxxxATT",
+      "Version": "0.2-1",
+      "Architecture": "iphoneos-arm64",
+      "Description": "",
+      "Section": "System",
+      "Author": "xxxxxxxx",
+      "Maintainer": "xxxxxxxx",
+      "Icon": "",
+      "Depiction": "",
+      "Homepage": ""
+    },
+    {
       "Package": "com.viewphone.app",
       "Name": "ViewPhone",
       "Version": "4.5.1",
