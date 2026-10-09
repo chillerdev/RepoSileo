@@ -7,22 +7,22 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Kho ứng dụng và tweak dành cho Sileo
 MD5Sum:
- 33744db5f4d7d375840fd0d9051f2c96 3480 main/binary-iphoneos-arm/Packages
- 396c3e1911c4a99bf3fe22d4e336c8d3 1448 main/binary-iphoneos-arm/Packages.gz
- e1b09bce94e9cb839e35ce7ac78bedad 1641 main/binary-iphoneos-arm/Packages.bz2
- 33744db5f4d7d375840fd0d9051f2c96 3480 main/binary-iphoneos-arm64/Packages
- 396c3e1911c4a99bf3fe22d4e336c8d3 1448 main/binary-iphoneos-arm64/Packages.gz
- e1b09bce94e9cb839e35ce7ac78bedad 1641 main/binary-iphoneos-arm64/Packages.bz2
- 33744db5f4d7d375840fd0d9051f2c96 3480 main/binary-iphoneos-arm64e/Packages
- 396c3e1911c4a99bf3fe22d4e336c8d3 1448 main/binary-iphoneos-arm64e/Packages.gz
- e1b09bce94e9cb839e35ce7ac78bedad 1641 main/binary-iphoneos-arm64e/Packages.bz2
+ 90dc2d28e96e3e008ce68e35e213e1c7 4680 main/binary-iphoneos-arm/Packages
+ d4daff7f8e63a7431bafee20b0471d68 1778 main/binary-iphoneos-arm/Packages.gz
+ 743e2c5c9738879082ec8772bb3e5dae 2007 main/binary-iphoneos-arm/Packages.bz2
+ 90dc2d28e96e3e008ce68e35e213e1c7 4680 main/binary-iphoneos-arm64/Packages
+ d4daff7f8e63a7431bafee20b0471d68 1778 main/binary-iphoneos-arm64/Packages.gz
+ 743e2c5c9738879082ec8772bb3e5dae 2007 main/binary-iphoneos-arm64/Packages.bz2
+ 90dc2d28e96e3e008ce68e35e213e1c7 4680 main/binary-iphoneos-arm64e/Packages
+ d4daff7f8e63a7431bafee20b0471d68 1778 main/binary-iphoneos-arm64e/Packages.gz
+ 743e2c5c9738879082ec8772bb3e5dae 2007 main/binary-iphoneos-arm64e/Packages.bz2
 SHA256:
- 855198cedf964a9181b4dd088104ac63861afd89209b967b0c879d880f6b3a85 3480 main/binary-iphoneos-arm/Packages
- e222963c870423502b858869bbe0c1b9ef8963e6ffc5fc5f0a1318d8f13e4656 1448 main/binary-iphoneos-arm/Packages.gz
- ff227456a3c5626336ea8a5d5df3d81f006eb09edc692c699865a864225b2f25 1641 main/binary-iphoneos-arm/Packages.bz2
- 855198cedf964a9181b4dd088104ac63861afd89209b967b0c879d880f6b3a85 3480 main/binary-iphoneos-arm64/Packages
- e222963c870423502b858869bbe0c1b9ef8963e6ffc5fc5f0a1318d8f13e4656 1448 main/binary-iphoneos-arm64/Packages.gz
- ff227456a3c5626336ea8a5d5df3d81f006eb09edc692c699865a864225b2f25 1641 main/binary-iphoneos-arm64/Packages.bz2
- 855198cedf964a9181b4dd088104ac63861afd89209b967b0c879d880f6b3a85 3480 main/binary-iphoneos-arm64e/Packages
- e222963c870423502b858869bbe0c1b9ef8963e6ffc5fc5f0a1318d8f13e4656 1448 main/binary-iphoneos-arm64e/Packages.gz
- ff227456a3c5626336ea8a5d5df3d81f006eb09edc692c699865a864225b2f25 1641 main/binary-iphoneos-arm64e/Packages.bz2
+ 18794e8c2f1d13b38d492ceae190a3aa788ca7c02f5cc7baf2753d1e09c50487 4680 main/binary-iphoneos-arm/Packages
+ 34e61be59e3686ad0193db6a575e474f2564a3399fb300020a86916c5b2fb5db 1778 main/binary-iphoneos-arm/Packages.gz
+ a408c6e56fe17c4f2de1c7e56ebee56b745742e43df08d040fda7f8bd1b16238 2007 main/binary-iphoneos-arm/Packages.bz2
+ 18794e8c2f1d13b38d492ceae190a3aa788ca7c02f5cc7baf2753d1e09c50487 4680 main/binary-iphoneos-arm64/Packages
+ 34e61be59e3686ad0193db6a575e474f2564a3399fb300020a86916c5b2fb5db 1778 main/binary-iphoneos-arm64/Packages.gz
+ a408c6e56fe17c4f2de1c7e56ebee56b745742e43df08d040fda7f8bd1b16238 2007 main/binary-iphoneos-arm64/Packages.bz2
+ 18794e8c2f1d13b38d492ceae190a3aa788ca7c02f5cc7baf2753d1e09c50487 4680 main/binary-iphoneos-arm64e/Packages
+ 34e61be59e3686ad0193db6a575e474f2564a3399fb300020a86916c5b2fb5db 1778 main/binary-iphoneos-arm64e/Packages.gz
+ a408c6e56fe17c4f2de1c7e56ebee56b745742e43df08d040fda7f8bd1b16238 2007 main/binary-iphoneos-arm64e/Packages.bz2
