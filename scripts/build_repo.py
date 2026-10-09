@@ -108,6 +108,52 @@ def write_release(config: dict, files: list[Path]) -> None:
     (ROOT / "Release").write_text("\n".join(header) + "\n", encoding="utf-8", newline="\n")
 
 
+def write_dists_tree(config: dict) -> None:
+    """Sinh cây dists/<suite>/ chuẩn apt cho Sileo/Apt client mới:
+        dists/<suite>/Release
+        dists/<suite><component>/binary-<arch>/Packages(.gz/.bz2)
+    Tất cả từ Packages ở root để không phải rebuild nội dung."""
+    suite = str(config.get("suite", "stable"))
+    archs = list(config.get("architectures", ["iphoneos-arm64"]))
+    comps = list(config.get("components", ["main"]))
+
+    dist_dir = ROOT / "dists" / suite
+    (dist_dir).mkdir(parents=True, exist_ok=True)
+
+    # copy Packages* root → từng binary-<arch> (mỗi component)
+    pkg_files = {"Packages": ROOT / "Packages",
+                 "Packages.gz": ROOT / "Packages.gz",
+                 "Packages.bz2": ROOT / "Packages.bz2"}
+    for comp in comps:
+        for arch in archs:
+            bin_dir = dist_dir / comp / f"binary-{arch}"
+            bin_dir.mkdir(parents=True, exist_ok=True)
+            for fname, src in pkg_files.items():
+                (bin_dir / fname).write_bytes(src.read_bytes())
+
+    # Release cho dists/<suite>/ — checksum path RELATIVE với file Release
+    header = [
+        f"Origin: {config['origin']}", f"Label: {config['label']}",
+        f"Suite: {suite}", f"Version: {config.get('version', '1.0')}",
+        f"Codename: {config.get('codename', '')}",
+        "Architectures: " + " ".join(archs),
+        "Components: " + " ".join(comps),
+        f"Description: {config.get('description', 'Sileo repo')}",
+    ]
+    rel_files = []
+    for comp in comps:
+        for arch in archs:
+            for fname in ("Packages", "Packages.gz", "Packages.bz2"):
+                rel_files.append(dist_dir / comp / f"binary-{arch}" / fname)
+    for title, algorithm in (("MD5Sum", "md5"), ("SHA256", "sha256")):
+        header.append(f"{title}:")
+        for path in rel_files:
+            # path RELATIVE với dists/<suite>/
+            rel = path.relative_to(dist_dir).as_posix()
+            header.append(f" {digest(path, algorithm)} {path.stat().st_size} {rel}")
+    (dist_dir / "Release").write_text("\n".join(header) + "\n", encoding="utf-8", newline="\n")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Cập nhật metadata cho Sileo repo")
     parser.add_argument("--check", action="store_true", help="thoát lỗi nếu có deb không đọc được")
@@ -144,6 +190,10 @@ def main() -> int:
     payload = {"repo": config, "packages": website}
     (ROOT / "packages.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     write_release(config, [ROOT / "Packages", ROOT / "Packages.bz2", ROOT / "Packages.gz"])
+    try:
+        write_dists_tree(config)
+    except Exception as exc:
+        print(f"LOI sinh dists/: {exc}")
     print(f"\nĐã tạo repo với {len(website)} gói; {errors} lỗi.")
     return 1 if args.check and errors else 0
 

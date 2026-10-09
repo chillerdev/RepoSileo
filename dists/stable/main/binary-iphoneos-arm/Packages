@@ -1,0 +1,136 @@
+Package: com.builuc1998.autotouchhelper
+Name: AutotouchHelper
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Tiz
+Author: Tiz
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Rootless: true
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 188
+Filename: ./debs/com.builuc1998.autotouchhelper_0.0.3_iphoneos-arm64.deb
+Size: 13276
+MD5sum: ea9f46460ca7dce67622662744e9a649
+SHA256: 897fc89dfe3a37b427bef5e944f31e83539d97d5c81e1cf4a87ee4dd8efad8ce
+
+Package: com.tigisoftware.filza
+Name: Filza File Manager
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Maintainer: TIGI Software
+Author: TIGI Software
+Section: Utilities
+Architecture: iphoneos-arm64
+Version: 4.0.1-2
+Installed-Size: 34948
+Filename: ./debs/com.tigisoftware.filza_4.0.1-2_iphoneos-arm64.deb
+Size: 13930160
+MD5sum: 334436fb8aa3a8d8911f2c76afa9ef48
+SHA256: 0cefbaf52f293dca9a3068e4288e3e159e20d72b6d5047281608671944c08ad3
+
+Package: com.yourname.serialforge
+Name: SerialForge
+Description: Fingerprint nâng cao, helper root reset container/App Group/extension/keychain và kiểm tra tính nhất quán toàn profile.
+Maintainer: yourname
+Author: yourname
+Section: Tweaks
+Depends: ellekit
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Installed-Size: 792
+Filename: ./debs/com.yourname.serialforge_1.2.1_iphoneos-arm64.deb
+Size: 90066
+MD5sum: d5eaeeb714440400d33ca0ec93c7a4be
+SHA256: c377ddc196c6f254362eae2ed5b68d2291b9364fe7c49b727f59c64a6574a0fd
+
+Package: me.autotouch.autotouch.ios8.inputtext
+Name: AutoTouch InputText
+Description: Record and playback touch operations, play macro scripts automatically.
+Section: Utilities
+Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), ellekit
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Priority: optional
+Author: Kent Krantz <kentkrantz@gmail.com>
+Homepage: https://autotouch.net
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+Architecture: iphoneos-arm64
+Version: 8.5.5
+Installed-Size: 135228
+Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_8.5.5_iphoneos-arm64.deb
+Size: 21640736
+MD5sum: fb8fa94550e3a01b82f44fda346903ee
+SHA256: 6e2b22fbf605a5fc5e83b93ab12022c1e9c03556a4a7a55770d338c3bdd34c1a
+
+Package: regtelegramlua
+Name: Reg Telegram Lua (AutoTouch)
+Version: 1.0.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 15.0)
+Maintainer: ttdevduck <admin@ttdevduck.top>
+Author: ttdevduck (https://ttdevduck.top)
+Section: Utilities
+Priority: optional
+Description: Bai bundle Mao ma Config RegTelegramLua.at 
+ Sao + name.txt + images vao AutoTouch bo su
+ Code dang ky Telegram, config nho tu ttdevduck.top
+Filename: ./debs/regtelegramlua_1.0.0_iphoneos-arm.deb
+Size: 441604
+MD5sum: 23e17f9cd2b1535644ca2dd634b2e711
+SHA256: 803a189b9be0cbe33fdcba35ce3671007be2fbc8dcea60f4b26d3050c8f2d976
+
+Package: regtelegramlua
+Name: Reg Telegram Lua (AutoTouch)
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Depends: firmware (>= 15.0)
+Maintainer: ttdevduck <admin@ttdevduck.top>
+Author: ttdevduck (https://ttdevduck.top)
+Section: Utilities
+Priority: optional
+Description: Bai bundle Mao ma Config RegTelegramLua.at 
+ Sao + name.txt + images vao AutoTouch bo su
+ Code dang ky Telegram, config nho tu ttdevduck.top
+Filename: ./debs/regtelegramlua_1.0.0_iphoneos-arm64.deb
+Size: 441630
+MD5sum: 3b52326634ba78171eb535d15021d9cd
+SHA256: cfc71dab9b3a3d764aa2b8445757ff314759d517d266c251dd1cbe4f8a1e4060
+
+Package: com.xxxxxxxx.ATT
+Name: xxxxxATT
+Version: 0.2-1
+Description: 
+Section: System
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm64
+Author: xxxxxxxx
+dev: xxxxxxxx
+Homepage: 
+Depiction: 
+Maintainer: xxxxxxxx
+Icon:
+Filename: ./debs/roothide_com.xxxxxxxx.ATT_0.2-1.deb
+Size: 2889666
+MD5sum: 8d20a8c61e94ca7dcef95180f28cae65
+SHA256: ed5a22d152b4546b863fda1c910b69363e7c6422bedcc8b9b5b1dd62b9f131a0
+
+Package: com.viewphone.app
+Name: ViewPhone
+Description: Multi-device ViewPhone agent with persistent streaming, touch, keyboard, TrollStore management and remote app control.
+Maintainer: ViewPhone
+Author: ViewPhone
+Section: Applications
+Depends: firmware (>= 14.0), ellekit
+Architecture: iphoneos-arm64e
+Version: 4.5.1
+Installed-Size: 2084
+Filename: ./debs/viewphone_4.5.1_iphoneos-arm64e.deb
+Size: 1280624
+MD5sum: 0bad5c953e400f68a9ab56148a61c58b
+SHA256: fda47b6cfbfdc74c94790c3f1623e40de9e8fbdd6621bd3a7dd5ab95f5d6e02b
+
