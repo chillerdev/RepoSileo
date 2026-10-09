@@ -66,37 +66,33 @@ SHA256: 6e2b22fbf605a5fc5e83b93ab12022c1e9c03556a4a7a55770d338c3bdd34c1a
 
 Package: regtelegramlua
 Name: Reg Telegram Lua (AutoTouch)
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Depends: firmware (>= 15.0)
 Maintainer: ttdevduck <admin@ttdevduck.top>
 Author: ttdevduck (https://ttdevduck.top)
 Section: Utilities
 Priority: optional
-Description: Bai bundle Mao ma Config RegTelegramLua.at 
- Sao + name.txt + images vao AutoTouch bo su
- Code dang ky Telegram, config nho tu ttdevduck.top
-Filename: ./debs/regtelegramlua_1.0.0_iphoneos-arm.deb
-Size: 441604
-MD5sum: 23e17f9cd2b1535644ca2dd634b2e711
-SHA256: 803a189b9be0cbe33fdcba35ce3671007be2fbc8dcea60f4b26d3050c8f2d976
+Description: Cai san bundle RegTelegramLua.at (code ma hoa + name.txt + 35 images) vao AutoTouch; tai lai tu https://ttdevduck.top moi khi chay setup.lua.
+Filename: ./debs/regtelegramlua_1.0.1_iphoneos-arm.deb
+Size: 441538
+MD5sum: 7910ac68a6026940cb2d240b67f60217
+SHA256: d72372190694aa3a42618a22c0ae2294b05e3d469d61d899922ce7abcaac9799
 
 Package: regtelegramlua
 Name: Reg Telegram Lua (AutoTouch)
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm64
 Depends: firmware (>= 15.0)
 Maintainer: ttdevduck <admin@ttdevduck.top>
 Author: ttdevduck (https://ttdevduck.top)
 Section: Utilities
 Priority: optional
-Description: Bai bundle Mao ma Config RegTelegramLua.at 
- Sao + name.txt + images vao AutoTouch bo su
- Code dang ky Telegram, config nho tu ttdevduck.top
-Filename: ./debs/regtelegramlua_1.0.0_iphoneos-arm64.deb
-Size: 441630
-MD5sum: 3b52326634ba78171eb535d15021d9cd
-SHA256: cfc71dab9b3a3d764aa2b8445757ff314759d517d266c251dd1cbe4f8a1e4060
+Description: Cai san bundle RegTelegramLua.at (code ma hoa + name.txt + 35 images) vao AutoTouch; tai lai tu https://ttdevduck.top moi khi chay setup.lua.
+Filename: ./debs/regtelegramlua_1.0.1_iphoneos-arm64.deb
+Size: 441572
+MD5sum: 3e0fdd376d0dac021a1f9eadb6547bf8
+SHA256: e5dd436fe2edee4961b08575a625d082e2507547f6c687197be6d9f9a4daa04c
 
 Package: com.viewphone.app
 Name: ViewPhone
