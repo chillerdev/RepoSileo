@@ -44,19 +44,6 @@
       "Homepage": ""
     },
     {
-      "Package": "com.xxxxxxxx.ATT",
-      "Name": "xxxxxATT",
-      "Version": "0.2-1",
-      "Architecture": "iphoneos-arm64",
-      "Description": "",
-      "Section": "System",
-      "Author": "xxxxxxxx",
-      "Maintainer": "xxxxxxxx",
-      "Icon": "",
-      "Depiction": "",
-      "Homepage": ""
-    },
-    {
       "Package": "com.yourname.serialforge",
       "Name": "SerialForge",
       "Version": "1.2.1",
@@ -104,6 +91,19 @@
       "Section": "Utilities",
       "Author": "ttdevduck (https://ttdevduck.top)",
       "Maintainer": "ttdevduck <admin@ttdevduck.top>",
+      "Icon": "",
+      "Depiction": "",
+      "Homepage": ""
+    },
+    {
+      "Package": "com.viewphone.app",
+      "Name": "ViewPhone",
+      "Version": "4.5.1",
+      "Architecture": "iphoneos-arm64",
+      "Description": "Multi-device ViewPhone agent with persistent streaming, touch, keyboard, TrollStore management and remote app control.",
+      "Section": "Applications",
+      "Author": "ViewPhone",
+      "Maintainer": "ViewPhone",
       "Icon": "",
       "Depiction": "",
       "Homepage": ""

@@ -30,27 +30,6 @@ Size: 13930160
 MD5sum: 334436fb8aa3a8d8911f2c76afa9ef48
 SHA256: 0cefbaf52f293dca9a3068e4288e3e159e20d72b6d5047281608671944c08ad3
 
-Package: com.xxxxxxxx.ATT
-Name: xxxxxATT
-Version: 0.2-1
-Description: 
-Section: System
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: 
-Replaces: 
-Priority: optional
-Architecture: iphoneos-arm64
-Author: xxxxxxxx
-dev: xxxxxxxx
-Homepage: 
-Depiction: 
-Maintainer: xxxxxxxx
-Icon:
-Filename: ./debs/com.xxxxxxxx.ATT_0.2-1.deb
-Size: 2889666
-MD5sum: 8d20a8c61e94ca7dcef95180f28cae65
-SHA256: ed5a22d152b4546b863fda1c910b69363e7c6422bedcc8b9b5b1dd62b9f131a0
-
 Package: com.yourname.serialforge
 Name: SerialForge
 Description: Fingerprint nâng cao, helper root reset container/App Group/extension/keychain và kiểm tra tính nhất quán toàn profile.
@@ -118,6 +97,21 @@ Filename: ./debs/regtelegramlua_1.0.0_iphoneos-arm64.deb
 Size: 441630
 MD5sum: 3b52326634ba78171eb535d15021d9cd
 SHA256: cfc71dab9b3a3d764aa2b8445757ff314759d517d266c251dd1cbe4f8a1e4060
+
+Package: com.viewphone.app
+Name: ViewPhone
+Description: Multi-device ViewPhone agent with persistent streaming, touch, keyboard, TrollStore management and remote app control.
+Maintainer: ViewPhone
+Author: ViewPhone
+Section: Applications
+Depends: firmware (>= 14.0), ellekit
+Architecture: iphoneos-arm64
+Version: 4.5.1
+Installed-Size: 2084
+Filename: ./debs/viewphone_4.5.1_iphoneos-arm64.deb
+Size: 1280386
+MD5sum: 809c38ceb134cb9b83e99db846e05b04
+SHA256: c38bf5b5bb29bc51c47eb2de3dde573adba212cfe7079f3de86a3c97b3869597
 
 Package: com.viewphone.app
 Name: ViewPhone
