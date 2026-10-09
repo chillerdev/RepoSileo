@@ -72,9 +72,9 @@
     {
       "Package": "regtelegramlua",
       "Name": "Reg Telegram Lua (AutoTouch)",
-      "Version": "1.0.2",
+      "Version": "1.0.3",
       "Architecture": "iphoneos-arm",
-      "Description": "Cai san bundle RegTelegramLua.at (code ma hoa + name.txt + 35 images) vao AutoTouch; chay setup.lua de tai lai tu https://ttdevduck.top.",
+      "Description": "Bundle RegTelegramLua.at cho AutoTouch (code ma hoa + name.txt + 35 images); setup.lua tai lai moi khi can.",
       "Section": "Utilities",
       "Author": "ttdevduck (https://ttdevduck.top)",
       "Maintainer": "ttdevduck <admin@ttdevduck.top>",
@@ -85,9 +85,9 @@
     {
       "Package": "regtelegramlua",
       "Name": "Reg Telegram Lua (AutoTouch)",
-      "Version": "1.0.2",
+      "Version": "1.0.3",
       "Architecture": "iphoneos-arm64",
-      "Description": "Cai san bundle RegTelegramLua.at (code ma hoa + name.txt + 35 images) vao AutoTouch; chay setup.lua de tai lai tu https://ttdevduck.top.",
+      "Description": "Bundle RegTelegramLua.at cho AutoTouch (code ma hoa + name.txt + 35 images); setup.lua tai lai moi khi can.",
       "Section": "Utilities",
       "Author": "ttdevduck (https://ttdevduck.top)",
       "Maintainer": "ttdevduck <admin@ttdevduck.top>",
