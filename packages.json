@@ -70,32 +70,6 @@
       "Homepage": "https://autotouch.net"
     },
     {
-      "Package": "regtelegramlua",
-      "Name": "Reg Telegram Lua (AutoTouch)",
-      "Version": "1.0.2",
-      "Architecture": "iphoneos-arm",
-      "Description": "Cai san bundle RegTelegramLua.at (code ma hoa + name.txt + 35 images) vao AutoTouch; chay setup.lua de tai lai tu https://ttdevduck.top.",
-      "Section": "Utilities",
-      "Author": "ttdevduck (https://ttdevduck.top)",
-      "Maintainer": "ttdevduck <admin@ttdevduck.top>",
-      "Icon": "",
-      "Depiction": "",
-      "Homepage": ""
-    },
-    {
-      "Package": "regtelegramlua",
-      "Name": "Reg Telegram Lua (AutoTouch)",
-      "Version": "1.0.2",
-      "Architecture": "iphoneos-arm64",
-      "Description": "Cai san bundle RegTelegramLua.at (code ma hoa + name.txt + 35 images) vao AutoTouch; chay setup.lua de tai lai tu https://ttdevduck.top.",
-      "Section": "Utilities",
-      "Author": "ttdevduck (https://ttdevduck.top)",
-      "Maintainer": "ttdevduck <admin@ttdevduck.top>",
-      "Icon": "",
-      "Depiction": "",
-      "Homepage": ""
-    },
-    {
       "Package": "com.viewphone.app",
       "Name": "ViewPhone",
       "Version": "4.5.1",
