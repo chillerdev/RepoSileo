@@ -64,6 +64,40 @@ Size: 21640736
 MD5sum: fb8fa94550e3a01b82f44fda346903ee
 SHA256: 6e2b22fbf605a5fc5e83b93ab12022c1e9c03556a4a7a55770d338c3bdd34c1a
 
+Package: regtelegramlua
+Name: Reg Telegram Lua (AutoTouch)
+Version: 1.0.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 15.0)
+Maintainer: ttdevduck <admin@ttdevduck.top>
+Author: ttdevduck (https://ttdevduck.top)
+Section: Utilities
+Priority: optional
+Description: Bai bundle Mao ma Config RegTelegramLua.at 
+ Sao + name.txt + images vao AutoTouch bo su
+ Code dang ky Telegram, config nho tu ttdevduck.top
+Filename: ./debs/regtelegramlua_1.0.0_iphoneos-arm.deb
+Size: 441604
+MD5sum: 23e17f9cd2b1535644ca2dd634b2e711
+SHA256: 803a189b9be0cbe33fdcba35ce3671007be2fbc8dcea60f4b26d3050c8f2d976
+
+Package: regtelegramlua
+Name: Reg Telegram Lua (AutoTouch)
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Depends: firmware (>= 15.0)
+Maintainer: ttdevduck <admin@ttdevduck.top>
+Author: ttdevduck (https://ttdevduck.top)
+Section: Utilities
+Priority: optional
+Description: Bai bundle Mao ma Config RegTelegramLua.at 
+ Sao + name.txt + images vao AutoTouch bo su
+ Code dang ky Telegram, config nho tu ttdevduck.top
+Filename: ./debs/regtelegramlua_1.0.0_iphoneos-arm64.deb
+Size: 441630
+MD5sum: 3b52326634ba78171eb535d15021d9cd
+SHA256: cfc71dab9b3a3d764aa2b8445757ff314759d517d266c251dd1cbe4f8a1e4060
+
 Package: com.xxxxxxxx.ATT
 Name: xxxxxATT
 Version: 0.2-1

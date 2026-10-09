@@ -70,6 +70,32 @@
       "Homepage": "https://autotouch.net"
     },
     {
+      "Package": "regtelegramlua",
+      "Name": "Reg Telegram Lua (AutoTouch)",
+      "Version": "1.0.0",
+      "Architecture": "iphoneos-arm",
+      "Description": "Bai bundle Mao ma Config RegTelegramLua.at\n Sao + name.txt + images vao AutoTouch bo su\n Code dang ky Telegram, config nho tu ttdevduck.top",
+      "Section": "Utilities",
+      "Author": "ttdevduck (https://ttdevduck.top)",
+      "Maintainer": "ttdevduck <admin@ttdevduck.top>",
+      "Icon": "",
+      "Depiction": "",
+      "Homepage": ""
+    },
+    {
+      "Package": "regtelegramlua",
+      "Name": "Reg Telegram Lua (AutoTouch)",
+      "Version": "1.0.0",
+      "Architecture": "iphoneos-arm64",
+      "Description": "Bai bundle Mao ma Config RegTelegramLua.at\n Sao + name.txt + images vao AutoTouch bo su\n Code dang ky Telegram, config nho tu ttdevduck.top",
+      "Section": "Utilities",
+      "Author": "ttdevduck (https://ttdevduck.top)",
+      "Maintainer": "ttdevduck <admin@ttdevduck.top>",
+      "Icon": "",
+      "Depiction": "",
+      "Homepage": ""
+    },
+    {
       "Package": "com.xxxxxxxx.ATT",
       "Name": "xxxxxATT",
       "Version": "0.2-1",
