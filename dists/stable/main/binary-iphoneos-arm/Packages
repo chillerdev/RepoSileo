@@ -75,9 +75,9 @@ Section: Utilities
 Priority: optional
 Description: Cai san bundle RegTelegramLua.at (code ma hoa + name.txt + 35 images) vao AutoTouch; chay setup.lua de tai lai tu https://ttdevduck.top.
 Filename: ./debs/regtelegramlua_1.0.2_iphoneos-arm.deb
-Size: 440838
-MD5sum: 1122083db591cd840e783ed5a2503470
-SHA256: e2ce48a132568e6a52d40788f72c2988d4684604019fa631cdf8b2b3665b94c3
+Size: 440836
+MD5sum: 9e85a4052749773944a8bedebbac3f23
+SHA256: 62614049e10fedda9b48f2fb07d528e0bfc2bdab9c1fddb34b09b9a14470a02e
 
 Package: regtelegramlua
 Name: Reg Telegram Lua (AutoTouch)
@@ -90,9 +90,9 @@ Section: Utilities
 Priority: optional
 Description: Cai san bundle RegTelegramLua.at (code ma hoa + name.txt + 35 images) vao AutoTouch; chay setup.lua de tai lai tu https://ttdevduck.top.
 Filename: ./debs/regtelegramlua_1.0.2_iphoneos-arm64.deb
-Size: 440842
-MD5sum: b281dd15033af2c2d6e749b84a18ae09
-SHA256: 83d5637755eb8e7b58a6710abcd1f12db0f4e38a4602864fc35c9bc035d3fdaf
+Size: 440840
+MD5sum: 12055bb1c1cef97e796af5cbc160523a
+SHA256: 14fc8b0340f293c7bb2cabd6e0830f90d8d46672cbdf905b1e5c7eef01461da2
 
 Package: com.viewphone.app
 Name: ViewPhone
