@@ -32,18 +32,18 @@ SHA256: 0cefbaf52f293dca9a3068e4288e3e159e20d72b6d5047281608671944c08ad3
 
 Package: com.yourname.serialforge
 Name: SerialForge
-Description: Dashboard đổi fingerprint thiết bị, xoá data app mục tiêu và kiểm tra trực tiếp MobileGestalt/uname/sysctl để xác nhận spoof.
+Description: Fingerprint nâng cao, helper root reset container/App Group/extension/keychain và kiểm tra tính nhất quán toàn profile.
 Maintainer: yourname
 Author: yourname
 Section: Tweaks
 Depends: ellekit
 Architecture: iphoneos-arm64
-Version: 1.2.0
-Installed-Size: 960
-Filename: ./debs/com.yourname.serialforge_1.2.0_iphoneos-arm64.deb
-Size: 89786
-MD5sum: 01e151a9faab67687f2afb802c465e81
-SHA256: 0d942c1d6838ab5761565465a080f846918a32635d2bd4ba96e8e0783eaeb0c6
+Version: 1.2.1
+Installed-Size: 792
+Filename: ./debs/com.yourname.serialforge_1.2.1_iphoneos-arm64.deb
+Size: 90066
+MD5sum: d5eaeeb714440400d33ca0ec93c7a4be
+SHA256: c377ddc196c6f254362eae2ed5b68d2291b9364fe7c49b727f59c64a6574a0fd
 
 Package: me.autotouch.autotouch.ios8.inputtext
 Name: AutoTouch InputText

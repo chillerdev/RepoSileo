@@ -46,9 +46,9 @@
     {
       "Package": "com.yourname.serialforge",
       "Name": "SerialForge",
-      "Version": "1.2.0",
+      "Version": "1.2.1",
       "Architecture": "iphoneos-arm64",
-      "Description": "Dashboard đổi fingerprint thiết bị, xoá data app mục tiêu và kiểm tra trực tiếp MobileGestalt/uname/sysctl để xác nhận spoof.",
+      "Description": "Fingerprint nâng cao, helper root reset container/App Group/extension/keychain và kiểm tra tính nhất quán toàn profile.",
       "Section": "Tweaks",
       "Author": "yourname",
       "Maintainer": "yourname",
