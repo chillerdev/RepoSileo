@@ -68,33 +68,31 @@ Package: regtelegramlua
 Name: Reg Telegram Lua (AutoTouch)
 Version: 1.0.2
 Architecture: iphoneos-arm
-
 Depends: firmware (>= 15.0)
 Maintainer: ttdevduck <admin@ttdevduck.top>
 Author: ttdevduck (https://ttdevduck.top)
 Section: Utilities
 Priority: optional
-Description: Cai san bundle RegTelegramLua.at (code ma hoa + name.txt + 35 images) vao AutoTouch; chay setup.lua de tai lai bundle moi tu https://ttdevduck.top.
+Description: Cai san bundle RegTelegramLua.at (code ma hoa + name.txt + 35 images) vao AutoTouch; chay setup.lua de tai lai tu https://ttdevduck.top.
 Filename: ./debs/regtelegramlua_1.0.2_iphoneos-arm.deb
-Size: 441542
-MD5sum: a668e2c7495029067f09e986dc902013
-SHA256: 6c4f61e88874c439b91142ccd425c25939b4bd1fceb82468eecc47dca5a6dba2
+Size: 441538
+MD5sum: 73a79b52d1948e81a62b76c2f20fee51
+SHA256: d2e5eff8523c15f5adbfb016452da47f18c855af25de7d66acc22de0f6f66cee
 
 Package: regtelegramlua
 Name: Reg Telegram Lua (AutoTouch)
 Version: 1.0.2
 Architecture: iphoneos-arm64
-
 Depends: firmware (>= 15.0)
 Maintainer: ttdevduck <admin@ttdevduck.top>
 Author: ttdevduck (https://ttdevduck.top)
 Section: Utilities
 Priority: optional
-Description: Cai san bundle RegTelegramLua.at (code ma hoa + name.txt + 35 images) vao AutoTouch; chay setup.lua de tai lai bundle moi tu https://ttdevduck.top.
+Description: Cai san bundle RegTelegramLua.at (code ma hoa + name.txt + 35 images) vao AutoTouch; chay setup.lua de tai lai tu https://ttdevduck.top.
 Filename: ./debs/regtelegramlua_1.0.2_iphoneos-arm64.deb
-Size: 441576
-MD5sum: dd53c2d38494c67493992de9935e04bb
-SHA256: 1573ce51857e414c3747c54d526f7803a84ff33787ed1f61244a5e972c167663
+Size: 441572
+MD5sum: aa06f06b1383f15fdfb4127c5a31d3b4
+SHA256: 0ffd563c3ce8e3d6cac6f8db5bb2ccc6cfec080911a391c589c98ecd1d3bef66
 
 Package: com.viewphone.app
 Name: ViewPhone
