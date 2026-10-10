@@ -97,7 +97,7 @@ def write_release(config: dict, files: list[Path]) -> None:
     header = [
         f"Origin: {config['origin']}", f"Label: {config['label']}",
         f"Suite: {config['suite']}", f"Version: {config['version']}",
-        f"Date: {time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}",
+        f"Date: {time.strftime('%a, %d %b %Y %H:%M:%S GMT', time.gmtime())}",
         f"Codename: {config['codename']}",
         "Architectures: " + " ".join(config["architectures"]),
         "Components: " + " ".join(config["components"]),
@@ -137,7 +137,7 @@ def write_dists_tree(config: dict) -> None:
     header = [
         f"Origin: {config['origin']}", f"Label: {config['label']}",
         f"Suite: {suite}", f"Version: {config.get('version', '1.0')}",
-        f"Date: {time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}",
+        f"Date: {time.strftime('%a, %d %b %Y %H:%M:%S GMT', time.gmtime())}",
         f"Codename: {config.get('codename', '')}",
         "Architectures: " + " ".join(archs),
         "Components: " + " ".join(comps),
